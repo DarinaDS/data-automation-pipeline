@@ -9,7 +9,7 @@ from sqlalchemy import create_engine
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def run_pipeline():
-    logging.info("=== Запуск полного автоматизированного пайплайна (50/50) ===")
+    logging.info("=== Запуск полного автоматизированного пайплайна  ===")
     
     # 1. Загрузка данных
     raw_df = DataLoader.load_csv("data/sales_data.csv")
